@@ -15,6 +15,9 @@ Application is divided into three parts:
 2. Exploratory data analysis - includes several plots used for data exploration (correlation matrix, PC1/PC2, histplot, boxplots)
 3. Prediction model - this part allows users to set values for each parameter to get a prediction of the object (model uses LogisticRegression).
 
+Dataset - https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
+
+
 
 
 
