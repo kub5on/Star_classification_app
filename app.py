@@ -100,7 +100,7 @@ elif page == "Eksploracja danych":
 
     # macierz korelacji
     st.markdown("#### Macierz korelacji parametrów modelu")
-    corr = df_cleaned.corr().round(2)
+    corr = df_cleaned.select_dtypes(include=['number']).corr().round(2)
 
     st.plotly_chart(px.imshow(
         corr.rename(index=renamed, columns=renamed),
