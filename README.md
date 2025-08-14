@@ -1,4 +1,4 @@
-# Star classification web application
+## Star classification web application
 This is an interactive application that allows users to perform stellar classification. It is based on dataset which consists of 100,000 observations of space taken by the SDSS (Sloan Digital Sky Survey). Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar.
 
 App is made using following parameters from _star_classification_ dataset:
@@ -12,10 +12,11 @@ App is made using following parameters from _star_classification_ dataset:
 
 Application is divided into three parts:
 1. Introduction - contains a description of the project (in Polish)
-2. Exploratory data analysis - includes several plots used for data exploration (correlation matrix, PC1/PC2, histplot, boxplots)
+2. Exploratory data analysis - includes several, interactive plots used for data exploration (correlation matrix, PC1/PC2, histplot, boxplots)
 3. Prediction model - this part allows users to set values for each parameter to get a prediction of the object (model uses LogisticRegression).
 
 Dataset - https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
+
 
 
 
