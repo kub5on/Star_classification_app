@@ -1,4 +1,4 @@
-## Star classification web application
+## Stellar classification web application
 This is an interactive __streamlit__ application that allows users to perform stellar classification. It is based on dataset which consists of 100,000 observations of space taken by the SDSS (Sloan Digital Sky Survey). Every observation is described by 17 feature columns and 1 class column which identifies it to be either a star, galaxy or quasar.
 
 App is made using following parameters from _star_classification_ dataset:
@@ -16,6 +16,7 @@ Application is divided into three parts:
 3. Prediction model - this part allows users to set values for each parameter to get a prediction of the object (model uses __LogisticRegression__).
 
 Dataset - https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17
+
 
 
 
